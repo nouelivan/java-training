@@ -14,6 +14,7 @@ public class Search {
 	
 	public static int binarySearch(int[] dataSet, int target, int start, int end) {
 		// binary search assumes a sorted array and can therefore continually split our search domain in half
+		System.out.println("Searching between " + dataSet[start] + " and " + dataSet[end - 1]);
 		int midpoint = (int) Math.floor(((start+end)/2));
 		int value = dataSet[midpoint];
 		

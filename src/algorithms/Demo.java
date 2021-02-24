@@ -14,6 +14,9 @@ public class Demo {
 		// Call the binary search
 		int index = algorithms.Search.binarySearch(sortedNumbers, 59, 0, sortedNumbers.length);
 		System.out.println("Found at position: " + index);
+	
+	
+	
 	}
 
 }
